@@ -1,0 +1,61 @@
+{
+  "info": {
+    "name": "Perpustakaan Microservices",
+    "_postman_id": "perpustakaan-microservices-final",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Borrowing Health",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3001/api/health"
+      }
+    },
+    {
+      "name": "Book Health",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3002/api/health"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"studentId\":\"2310001\",\"password\":\"12345\"}"
+        },
+        "url": "http://localhost:3001/api/auth/login"
+      }
+    },
+    {
+      "name": "Books",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3002/api/books"
+      }
+    },
+    {
+      "name": "Borrowing History",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3001/api/borrowings/user/2310001"
+      }
+    },
+    {
+      "name": "Borrow Book",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"studentId\":\"2310001\",\"bookId\":\"BK001\"}"
+        },
+        "url": "http://localhost:3001/api/borrowings"
+      }
+    }
+  ]
+}

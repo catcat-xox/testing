@@ -1,0 +1,44 @@
+[
+  {
+    "id": "BK001",
+    "title": "Laskar Pelangi",
+    "author": "Andrea Hirata",
+    "category": "Novel",
+    "available": false
+  },
+  {
+    "id": "BK002",
+    "title": "Bumi Manusia",
+    "author": "Pramoedya Ananta Toer",
+    "category": "Novel",
+    "available": false
+  },
+  {
+    "id": "BK003",
+    "title": "Negeri 5 Menara",
+    "author": "Ahmad Fuadi",
+    "category": "Novel",
+    "available": false
+  },
+  {
+    "id": "BK004",
+    "title": "Filosofi Teras",
+    "author": "Henry Manampiring",
+    "category": "Pengembangan Diri",
+    "available": false
+  },
+  {
+    "id": "BK005",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Pengembangan Diri",
+    "available": false
+  },
+  {
+    "id": "BK006",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Teknologi",
+    "available": false
+  }
+]

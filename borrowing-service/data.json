@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "studentId": "2310001",
+      "name": "Mahasiswa 1",
+      "password": "12345"
+    },
+    {
+      "studentId": "2310002",
+      "name": "Mahasiswa 2",
+      "password": "12345"
+    },
+    {
+      "studentId": "2310003",
+      "name": "Mahasiswa 3",
+      "password": "12345"
+    }
+  ],
+  "borrowings": [
+    {
+      "id": "BR1789721805001",
+      "studentId": "2310001",
+      "bookId": "BK001",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    },
+    {
+      "id": "BR1789721807440",
+      "studentId": "2310001",
+      "bookId": "BK006",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    },
+    {
+      "id": "BR1789721808447",
+      "studentId": "2310001",
+      "bookId": "BK005",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    },
+    {
+      "id": "BR1789721826783",
+      "studentId": "2310002",
+      "bookId": "BK002",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    },
+    {
+      "id": "BR1789721827304",
+      "studentId": "2310002",
+      "bookId": "BK003",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    },
+    {
+      "id": "BR1789721828457",
+      "studentId": "2310002",
+      "bookId": "BK004",
+      "tanggalPinjam": "2026-09-18",
+      "batasPengembalian": "2026-09-25",
+      "status": "borrowed"
+    }
+  ]
+}
